@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html ng-app="a3_5">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>表头排序</title>
+	<script type="text/javascript" src="../Script/angular.js"></script>
+	<style type="text/css">
+		body {
+			font-size: 12px;
+		}
+		ul {
+			list-style-type: none;
+			width: 508px;
+			margin: 0px;
+			padding: 0px;
+		}
+			ul li{
+				float: left;
+				padding: 5px 0px;
+			}
+			ul .odd{
+				color: #0026ff;
+			}
+			ul .even{
+				color: #ff0000;
+			}
+			ul .bold{
+				font-weight: bold;
+			}
+			ul li span{
+				width: 52px;
+				float: left;
+				padding: 0px 10px;
+			}
+			ul .focus{
+				background-color: #cccccc;
+			}
+	</style>
+</head>
+<body>
+	<div ng-controller="c3_5">
+		<div>
+			<input id="txtkey" type="text" ng-model="key" placeholder="请输入关键字"></input>
+		</div>
+		<ul>
+			<li ng-class="{{bold}}">
+				<span>序号</span>
+				<span ng-click="title='name';desc=!desc">姓名</span>
+				<span ng-click="title='sex';desc=!desc">性别</span>
+				<span ng-click="title='age';desc=!desc">年龄</span>
+				<span ng-click="title='score';desc=!desc">分数</span>
+			</li>
+			<li ng-repeat=" stu in data | filter:{sex:key} "
+			     ng-class-odd=" 'odd' " ng-class-even=" 'even' ">
+			     <span>{{$index+1}}</span>
+			     <span>{{stu.name}}</span>
+			     <span>{{stu.sex}}</span>
+			     <span>{{stu.age}}</span>
+			     <span>{{stu.score}}</span>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		var a3_5 = angular.module('a3_5',[]);
+		a3_5.controller('c3_5',['$scope',function ($scope) {
+			$scope.bold = 'bold';
+			$scope.key = '';
+			$scope.data = [
+				{name:"张明明",sex:"女",age:25,score:95},
+				{name:"李清思",sex:"女",age:27,score:87},
+				{name:"刘小华",sex:"男",age:28,score:86},
+				{name:"陈忠忠",sex:"男",age:23,score:95}
+			];
+		}]);
+		
+	</script>
+</body>
+</html>
