@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app = "a2_9">
+<head>
+	<title>
+		controller initialize $scope object
+	</title>
+	<script type="text/javascript" src="../Script/angular.js"></script>
+</head>
+<body>
+	<script type="text/ng-template" id="tplbase">
+		name:{{name}},<br/> email:{{email}}
+	</script>
+	<div ng-include src="'tplbase'" ng-controller="c2_9"></div>
+
+	<script type="text/javascript">
+		var a2_9 = angular.module('a2_9',[]);
+		a2_9.controller('c2_9',['$scope',function ($scope) {
+			$scope.name = 'jack';
+			$scope.email = "javaspringmvc@163.com";
+		}]);
+		
+
+	</script>
+</body>
+</html>

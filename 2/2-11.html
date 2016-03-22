@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html ng-app = "a2_11">
+<head>
+	<title>
+		use command copy element
+	</title>
+	<script type="text/javascript" src="../Script/angular.js"></script>
+	<style type="text/css">
+		body {
+			font-size: 12px;
+		}
+		ul {
+			list-style-type: none;
+			width: 408px;
+			margin: 0px;
+			padding: 0px;
+		}
+		ul li {
+			float: left;
+			padding: 5px 0px;
+		}
+		ul .odd{
+			color: #0026ff;
+		}
+		ul .even{
+			color: #ff0000;
+		}
+		ul .bold{
+			font-weight: bold;
+		}
+		ul li span{
+			width: 50px;
+			float: left;
+			padding: 0px 11px;
+		}
+		ul .focus{
+			background-color: #cccccc;
+		}
+	</style>
+</head>
+<body>
+	<div ng-controller="c2_11">
+		<ul>
+			<li ng-class="{{bold}}">
+				<span>index</span>
+				<span>name</span>
+				<span>sex</span>
+				<span>isFirst</span>
+				<span>isEnd</span>
+			</li>
+			<li 	ng-class-odd="'odd'"
+				ng-class-even="'even'"
+				ng-repeat=" stu in data"
+				ng-click='li_click($index)'
+				ng-class='{focus:$index==focus}'>
+				<span>{{$index+1}}</span>
+				<span>{{stu.name}}</span>
+				<span>{{stu.sex}}</span>
+				<span>{{$first?'yes':'no'}}</span>
+				<span>{{$last?'yes':'no'}}</span>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		var a2_11 = angular.module('a2_11',[]);
+		a2_11.controller('c2_11',['$scope',function ($scope) {
+			$scope.bold = 'bold';
+			$scope.li_click = function (index) {
+				$scope.focus = index;
+			}
+			$scope.data = [
+				{name:"jack",sex:"female"},
+				{name:'tom',sex:'male'},
+				{name:'jerry',sex:'male'},
+				{name:'cathryn',sex:'female'}
+			]
+		}])
+	</script>
+</body>
+</html>

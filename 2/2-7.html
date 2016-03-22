@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app = "a2_7">
+<head>
+	<title>
+		controller initialize $scope object
+	</title>
+	<script type="text/javascript" src="../Script/angular.js"></script>
+</head>
+<body>
+	<div ng-controller="c2_7">
+		<span>{{text}}</span>
+		<input id="btnShow" type = "button" ng-click="click_show()" value="show"></input>
+		<input id="btnPara" type="button" ng-click="click_para('click para button');" value="show with show"></input>
+	</div>
+
+	<script type="text/javascript">
+		var a2_7 = angular.module('a2_7',[]);
+		a2_7.controller('c2_7',['$scope',function ($scope) {
+			$scope.text = 'Hello !Angular';
+			$scope.click_show = function () {
+				$scope.text  = 'welcome to Angular\'s world';
+			};
+			$scope.click_para = function (para) {
+				$scope.text = para;
+			}
+			
+		}])
+
+	</script>
+</body>
+</html>

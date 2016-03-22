@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html ng-app = "a2_4">
+<head>
+	<title>
+		controller initialize $scope object
+	</title>
+	<script type="text/javascript" src="../Script/angular.js"></script>
+</head>
+<body>
+	<div ng-controller="c2_4">
+		<span>{{text}}</span>
+	</div>
+
+	<script type="text/javascript">
+		var a2_4 = angular.module('a2_4',[]);
+		a2_4.controller('c2_4',['$scope',function ($scope) {
+			$scope.text  = 'Hello ! Angular';
+		}])
+
+	</script>
+</body>
+</html>

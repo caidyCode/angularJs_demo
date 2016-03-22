@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html ng-app = "a2_10">
+<head>
+	<title>
+		use command copy element
+	</title>
+	<script type="text/javascript" src="../Script/angular.js"></script>
+	<style type="text/css">
+		body {
+			font-size: 12px;
+		}
+		ul {
+			list-style-type: none;
+			width: 400px;
+			margin: 0px;
+			padding: 0px;
+		}
+		ul li {
+			float: left;
+			padding: 5px 0px;
+		}
+		ul li span{
+			width: 50px;
+			float: left;
+			padding: 0px 10px;
+		}
+	</style>
+</head>
+<body>
+	<div ng-controller="c2_10">
+		<ul>
+			<li>
+				<span>index</span>
+				<span>name</span>
+				<span>sex</span>
+				<span>isFirst</span>
+				<span>isEnd</span>
+			</li>
+			<li ng-repeat=" stu in data">
+				<span>{{$index+1}}</span>
+				<span>{{stu.name}}</span>
+				<span>{{stu.sex}}</span>
+				<span>{{$first?'yes':'no'}}</span>
+				<span>{{$last?'yes':'no'}}</span>
+			</li>
+		</ul>
+	</div>
+	<script type="text/javascript">
+		var a2_10 = angular.module('a2_10',[]);
+		a2_10.controller('c2_10',['$scope',function ($scope) {
+			$scope.data = [
+				{name:"jack",sex:"female"},
+				{name:'tom',sex:'male'},
+				{name:'jerry',sex:'male'},
+				{name:'cathryn',sex:'female'}
+			]
+		}])
+	</script>
+</body>
+</html>
