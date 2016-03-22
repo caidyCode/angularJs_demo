@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html ng-app="a3_9">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-9" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 	<title>作用域事件传播</title>
 	<script type="text/javascript" src="../Script/angular.js"></script>
 	<style type="text/css">
@@ -15,6 +15,7 @@
 		<div ng-controller="c3_9_s">
 			<button ng-click="to_parent()">向父级传播</button>
 			<button ng-click="to_child()">向子级传播</button>
+			<div ng-controller="c3_9_c"></div>
 		</div>
 		<div ng-controller="c3_9_b"></div>
 	</div>
@@ -27,7 +28,31 @@
 			$scope.to_child = function(){
 				$scope.$broadcast('event_2','事件来源于父级')
 			}
-		})
+		});
+		a3_9.controller('c3_9_p',function($scope){
+			$scope.$on('event_1',function(event,data){
+				console.log('在父级中监听到',data);
+			});
+			$scope.$on("event_2",function(event,data){
+				console.log("在父级中监听到",data);
+			});
+		});
+		a3_9.controller('c3_9_c',function($scope){
+			$scope.$on('event_1',function(event,data){
+				console.log("在子级中监听到",data);
+			});
+			$scope.$on('event_2',function(event,data){
+				console.log("在子级中监听到",data);
+			})
+		});
+		a3_9.controller('c3_9_b',function($scope){
+			$scope.$on('event_1',function(event,data){
+				console.log("在同级中监听到",data);
+			});
+			$scope.$on('event_2',function(event,data){
+				console.log("在同级中监听到",data);
+			});
+		});
 		
 	</script>
 </body>
