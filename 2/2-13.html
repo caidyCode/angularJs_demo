@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html ng-app = "a2_13">
+<head>
+	<title>
+		use command copy element
+	</title>
+	<script type="text/javascript" src="../Script/angular.js"></script>
+	<style type="text/css">
+		body {
+			font-size: 12px;
+		}
+		input {
+			padding: 3px;
+		}
+	</style>
+</head>
+<body>
+	<form name="temp_form"
+	           ng-submit="save()"
+	           ng-controller="c2_13">
+		<div>
+			<input name="t_name" ng-model="name" type="text" required></input>
+			<span ng-show="temp_form.t_name.$error.required">name can not empty</span>
+		</div>
+		<div>
+			<input name="t_email" ng-model="email" type="email" required></input>
+			<span ng-show="temp_form.t_email.$error.required">email can not empty</span>
+			<span ng-show="temp_form.t_email.$error.email">email is error</span>
+		</div>
+		<input type="submit" ng-disabled="temp_form.$invalid" value="submit"></input>
+	</form>
+	<script type="text/javascript">
+		var a2_13 = angular.module('a2_13',[]);
+		a2_13.controller('c2_13',['$scope',function ($scope) {
+			$scope.name = "jack";
+			$scope.email  = "javaspringmvc@163.com";
+			$scope.save = function(){
+				console.log("commit success");
+			};
+		}]);
+	</script>
+</body>
+</html>

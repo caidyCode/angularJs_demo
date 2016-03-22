@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html ng-app = "a2_15">
+<head>
+	<title>
+		select
+	</title>
+	<script type="text/javascript" src="../Script/angular.js"></script>
+	<style type="text/css">
+		body {
+			font-size: 12px;
+		}
+		div {
+			padding: 8px 0px;
+		}
+	</style>
+</head>
+<body>
+	<form name="temp_form"
+	           ng-controller="c2_15">
+		<div>
+			学制
+			<select ng-model="a"
+				 ng-options="v.id as v.name for v in a_data"
+				 ng-change="a_change(a)">
+			       <option value="">--请选择--</option>
+			</select>
+			<span>{{a_show}}</span>
+		</div>
+		<div>班级
+			<select ng-model="b"
+			              ng-options="v.id as v.name group by v.grade for v in b_data"
+			              ng-change="b_change(b)">
+			        <option value="">--请选择--</option>
+			        <span>{{b_show}}</span>
+			</select>
+		</div>
+	</form>
+	<script type="text/javascript">
+		var a2_15 = angular.module('a2_15',[]);
+		a2_15.controller('c2_15',['$scope',function ($scope) {
+			$scope.a_data = [
+				{ id:"1001" ,name:"primary school" },
+				{ id:"1002" ,name:"junior high school" },
+				{ id:"1003" ,name:"senior high school"}
+			];
+			$scope.b_data  = [
+				{ id:"1001" ,name:"(1) class",grade:"First Grade" },
+				{ id:"1002" ,name:"(2) class",grade:"First Grade" },
+				{ id:"1003" ,name:"(1) class",grade:"sophomore" },
+				{ id:"1004" ,name:"(2) class",grade:"sophomore" },
+				{ id:"1005" ,name:"(1) class",grade:"junior" },
+				{ id:"1006" ,name:"(2) class",grade:"junior" }
+			];
+			$scope.a = "";
+			$scope.b = "";
+			$scope.a_change = function(a){
+				$scope.a_show =  "you have chosen "+a;
+			}
+			$scope.b_change = function(b){
+				$scope.b_show =  "you have chosen "+b;
+			}
+		}]);
+	</script>
+</body>
+</html>

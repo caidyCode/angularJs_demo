@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html ng-app = "a2_14">
+<head>
+	<title>
+		use command copy element
+	</title>
+	<script type="text/javascript" src="../Script/angular.js"></script>
+	<style type="text/css">
+		body {
+			font-size: 12px;
+		}
+		div {
+			padding: 8px 0px;
+		}
+	</style>
+</head>
+<body>
+	<form name="temp_form"
+	           ng-submit="save()"
+	           ng-controller="c2_14">
+		<div>
+			<input type="checkbox" ng-model="a" 
+			ng-true-value="1" 
+			ng-false-value="0">agree</input>
+		</div>
+		<div>
+			<input type="radio" ng-model="b" value="male">male</input>
+			<input type="radio" ng-model="b" value="female">female</input>
+		</div>
+		<input type="submit" ng-disabled="temp_form.$invalid" value="submit"></input>
+		<div>{{c}}</div>
+	</form>
+	<script type="text/javascript">
+		var a2_14 = angular.module('a2_14',[]);
+		a2_14.controller('c2_14',['$scope',function ($scope) {
+			$scope.a = 1;
+			$scope.b  = "male";
+			$scope.save = function(){
+				$scope.c = $scope.a +""+ $scope.b;
+			};
+		}]);
+	</script>
+</body>
+</html>
