@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html ng-app="a4_7">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>method of invoke</title>
+	<script type="text/javascript" src="../Script/angular.js"></script>
+	<style type="text/css">
+		body {
+			font-size: 12px;
+		}
+		.show{
+			margin: 10px 0px;
+		}
+	</style>
+</head>
+<body>
+	<div ng-controller="c4_7">
+		
+	</div>
+	<script type="text/javascript">
+		var a4_7 = angular.module('a4_7',[]);
+		a4_7.factory('$custom',function () {
+			return {
+				print:function(msg){
+					console.log(msg);
+				}
+			}
+		});
+		var injector = angular.injector(['a4_7','ng']);
+		var fun = function($custom){
+			$custom.print("funtion excute success");
+		}
+		injector.invoke(fun);
+		a4_7.controller('c4_7',['$scope','$custom',function($scope,$custom){
+			$custom.print("111111");
+		}]);
+	</script>
+</body>
+</html>
