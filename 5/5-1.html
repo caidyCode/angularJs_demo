@@ -1,0 +1,36 @@
+<!doctype html>
+<html ng-app="a5_1">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>model 组件的基础概念</title>
+		<script type="text/javascript" src="../Script/angular.js"></script>
+		<style type="text/css">
+		body{
+			font-size:12px;
+		}
+		.show{
+			background-color: #ccc;
+			padding: 8px;
+			width: 260px;
+			margin: 10px 0px;
+		}
+		</style>
+	</head>
+	<body>
+		<div ng-controller="c5_1">
+			<div class="show">{{name}}</div>
+			<input ng-model="score" value="95" />
+			<div class="show">
+				{{score}}
+			</div>
+		</div>
+		<script type="text/javascript">
+			var a5_1 = angular.module('a5_1',[]);
+			a5_1.controller('c5_1',['$scope',function ($scope) {
+				$scope.name = "jack";
+			}]);
+			//暂时不知道什么原因隐式创建的模型属性，不成功，
+			//估计是angular版本的原因，待查
+		</script>
+	</body>
+</html>

@@ -1,0 +1,62 @@
+<!doctype html>
+<html ng-app="a5_7">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>切换视图模板是传参数</title>
+		<script type="text/javascript" src="../Script/angular.js"></script>
+		<script type="text/javascript" src="../Script/angular-route.js"></script>
+		<style type="text/css">
+		body{
+			font-size:12px;
+		}
+		.show{
+			background-color: #ccc;
+			padding: 8px;
+			width: 270px;
+			margin: 50px 0px;
+		}
+		input{
+			width: 50px;
+		}
+		</style>
+	</head>
+	<body>
+		<div ng-view></div>
+		<script type="text/javascript">
+			var a5_7 = angular.module('a5_7',['ngRoute']);
+			a5_7.controller('c5_7_1',['$scope',function ($scope) {
+				$scope.students = students;
+			}]);
+			a5_7.controller('c5_7_2',function ($scope,$routeParams) {
+				for (var i = 0;i<students.length;i++) {
+					if(students[i].stuId == $routeParams.id){
+						$scope.student = students[i];
+						break;
+					}
+				}
+			});
+			a5_7.config(['$routeProvider',function($routeProvider){
+				$routeProvider
+					.when('/',{
+						controller:'c5_7_1',
+						templateUrl:"5-7-1.html"
+					})
+					.when('/view/:id',{
+						controller:'c5_7_2',
+						templateUrl:"5-7-2.html",
+						publicAccess:true	
+					})
+					.otherwise({
+						redirectTo:'/'
+					})
+			}]);
+			var students = [
+				{stuId:1000,name:"jack",sex:"male",score:60},
+				{stuId:1001,name:"tom",sex:"male",score:80},
+				{stuId:1002,name:"catheryn",sex:"female",score:90},
+				{stuId:1003,name:"jerry",sex:"female",score:70}
+			];
+			//google chrome 不支持本地ajax请求，故该demo需要在火狐浏览器下演示
+		</script>
+	</body>
+</html>
