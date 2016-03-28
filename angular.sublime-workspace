@@ -1,0 +1,604 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"out",
+				"outarr"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"stu",
+				"stuId"
+			],
+			[
+				"c5",
+				"c5_7_1"
+			],
+			[
+				"rou",
+				"routeParams"
+			],
+			[
+				"soc",
+				"score"
+			],
+			[
+				"name",
+				"name_c"
+			],
+			[
+				"so",
+				"scope"
+			],
+			[
+				"nam",
+				"name_b"
+			],
+			[
+				"n",
+				"name_a"
+			],
+			[
+				"cha",
+				"changeB"
+			],
+			[
+				"c3",
+				"c3_9_b"
+			],
+			[
+				"to",
+				"to_child"
+			],
+			[
+				"marg",
+				"margin-right"
+			],
+			[
+				"pa",
+				"placeholder	Attr"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"a",
+				"a2_10"
+			],
+			[
+				"lis",
+				"list-style-type"
+			],
+			[
+				"click",
+				"click_para"
+			],
+			[
+				"an",
+				"Angular"
+			],
+			[
+				"m",
+				"main	method (main)"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "6/6-1.html",
+			"settings":
+			{
+				"buffer_size": 715,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "6/6-2.html",
+			"settings":
+			{
+				"buffer_size": 953,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "6/6-3.html",
+			"settings":
+			{
+				"buffer_size": 932,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"File: Close All"
+			]
+		],
+		"width": 392.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/H/anluarJs_workspace",
+		"/H/anluarJs_workspace/6"
+	],
+	"file_history":
+	[
+		"/D/Program Files/Apache24/htdocs/index.html",
+		"/H/anluarJs_workspace/5/test.html",
+		"/H/cmsSpace/CMS/WebContent/test.jsp",
+		"/H/anluarJs_workspace/5/5-1.html",
+		"/H/anluarJs_workspace/5/5-7-2.html",
+		"/C/Users/cdy-pq/AppData/Roaming/Sublime Text 3/Packages/User/Default (Windows).sublime-keymap",
+		"/C/Users/cdy-pq/AppData/Roaming/Sublime Text 3/Packages/Default/Default (Windows).sublime-keymap",
+		"/H/anluarJs_workspace/5/5-7.html",
+		"/H/anluarJs_workspace/5/5-6.html",
+		"/H/anluarJs_workspace/5/5-5.html",
+		"/H/anluarJs_workspace/5/5-4.html",
+		"/H/anluarJs_workspace/5/5-3.html",
+		"/H/anluarJs_workspace/4/4-7.html",
+		"/H/anluarJs_workspace/4/4-6.html",
+		"/H/anluarJs_workspace/4/4-5.html",
+		"/H/anluarJs_workspace/4/4-4.html",
+		"/H/anluarJs_workspace/4/4-3.html",
+		"/H/anluarJs_workspace/4/4-2.html",
+		"/H/anluarJs_workspace/4/4-1.html",
+		"/G/temp/slnAngular/Ch5/5-7.html",
+		"/H/anluarJs_workspace/5/5-7-1.html",
+		"/G/temp/slnAngular/Ch5/5-7-1.html",
+		"/C/Users/cdy-pq/AppData/Roaming/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/G/temp/angular-1.5.2/docs/examples/example-ngView-directive/index.html",
+		"/G/temp/angular-1.5.2/docs/examples/example-example35/index.html",
+		"/G/temp/angular-1.5.2/docs/examples/example-example1/index.html",
+		"/H/anluarJs_workspace/Script/angular-route.js",
+		"/H/anluarJs_workspace/3/3-1.html",
+		"/H/anluarJs_workspace/3/3-2.html",
+		"/H/anluarJs_workspace/3/3-3.html",
+		"/H/anluarJs_workspace/3/3-4.html",
+		"/H/anluarJs_workspace/3/3-5.html",
+		"/H/anluarJs_workspace/3/3-6.html",
+		"/H/anluarJs_workspace/3/3-7.html",
+		"/H/anluarJs_workspace/3/3-8.html",
+		"/H/anluarJs_workspace/3/3-9.html",
+		"/H/anluarJs_workspace/Script/angular.js",
+		"/H/anluarJs_workspace/2/2-15.html",
+		"/H/anluarJs_workspace/2/2-1.html",
+		"/H/anluarJs_workspace/2/2-9.html",
+		"/H/anluarJs_workspace/2/2-10.html",
+		"/H/anluarJs_workspace/2/2-11.html",
+		"/H/anluarJs_workspace/2/2-12.html",
+		"/H/anluarJs_workspace/2/2-13.html",
+		"/H/anluarJs_workspace/2/2-14.html",
+		"/G/temp/jquery-1.12.2.js",
+		"/H/anluarJs_workspace/2/2-8.html",
+		"/H/anluarJs_workspace/2/2-7.html",
+		"/H/anluarJs_workspace/2/2-6.html",
+		"/H/anluarJs_workspace/2/2-5.html",
+		"/H/anluarJs_workspace/1/1-3.html",
+		"/G/temp/slnAngular/Ch1/1-3.html",
+		"/C/Users/cdy-pq/AppData/Local/Temp/Rar$EXa0.034/Ch1/1-3.html",
+		"/H/anluarJs_workspace/angluar.min.js",
+		"/H/anluarJs_workspace/1/1-1.html",
+		"/H/anluarJs_workspace/1/1-2.html",
+		"/H/anluarJs_workspace/angluar.min.2.16.js",
+		"/H/anluarJs_workspace/anluarJs.js",
+		"/G/temp/RESTfulExample/pom.xml",
+		"/H/fasthink/leju/Development/03Code/admin_web/.idea/workspace.xml",
+		"/H/fasthink/leju/Development/03Code/admin_web/js/repair.js",
+		"/G/temp/RESTfulExample/src/main/java/com/mkyong/rest/FileUploadForm.java",
+		"/G/temp/RESTfulExample/src/main/java/com/mkyong/rest/UploadFileService.java",
+		"/G/temp/RESTfulExample/src/main/webapp/WEB-INF/web.xml",
+		"/G/temp/97源代码备份/echejf_pc/src/com/ecjf/meta/db/BaseMapper.java",
+		"/G/temp/97源代码备份/echejf_pc/web/welcome.html",
+		"/G/learn/PDE9/P9_V9.3.0/SRC/AMS/WebContent/WEB-INF/jsp/p9/cmc/AmsAcceptHistory.jsp",
+		"/F/Program Files/apache-tomcat-8.0.32/conf/server.xml",
+		"/F/Program Files/apache-tomcat-8.0.32/conf/context.xml",
+		"/G/阿福/微网原型/index.html",
+		"/G/temp/97源代码备份/svnmob/web/app.html",
+		"/G/temp/97源代码备份/svnmob/web/WEB-INF/conf/dao-mvc.xml",
+		"/D/developSoft/apache-tomcat-8.0.32/webapps/mobile/WEB-INF/conf/dao-mvc.xml",
+		"/G/temp/97源代码备份/svnmob/src/com/ecjf/mob/dao/SaleDAO.xml",
+		"/G/temp/97源代码备份/echejf_pc/web/WEB-INF/config/spring-dao.xml",
+		"/G/temp/97源代码备份/echejf_pc/web/WEB-INF/spring4mvc-servlet.xml",
+		"/C/Users/cdy-pq/Desktop/AbstractBaseJunit4Test.java",
+		"/H/fasthink/leju/Development/03Code/manage/trunk/fasthink/fasthink.action/src/main/webapp/WEB-INF/web.xml",
+		"/H/lejuworkspace/.metadata/.plugins/org.eclipse.wst.server.core/tmp0/wtpwebapps/fasthink.action/WEB-INF/web.xml",
+		"/D/developSoft/apache-maven-3.3.9/conf/settings.xml",
+		"/G/learn/PDE9/P9_V9.3.0/SRC/AMS/WebContent/WEB-INF/web.xml",
+		"/C/Users/cdy-pq/AppData/Local/Temp/Rar$DIa0.326/settings.xml",
+		"/H/fasthink/common/Development/03Code/manage/fasthink/pom.xml",
+		"/H/fasthink/common/Development/03Code/manage/fasthink/fasthink.action/src/main/resources/log4j.xml",
+		"/C/Users/cdy-pq/Desktop/layout/layout.js",
+		"/C/Users/cdy-pq/Desktop/layout/layou.html",
+		"/C/Users/cdy-pq/Desktop/htmlExportExcel.js",
+		"/C/Users/cdy-pq/Desktop/jquery.js",
+		"/C/Users/cdy-pq/Desktop/jtab.js",
+		"/C/Users/cdy-pq/Desktop/FixCOM.js",
+		"/C/Users/cdy-pq/Desktop/caidy/test.js",
+		"/G/temp/Hello.java",
+		"/D/Program Files/apache-maven-3.3.1/conf/settings.xml",
+		"/H/github/cometd/pom.xml",
+		"/H/test/svn/fasthink_base/04Code/fasthink/fasthink.fulltext/src/main/java/cn/fasthink/fulltext/App.java",
+		"/G/learn/PDE9/P9_V9.3.0/SRC/AMS/src-p9-aop/com/pde/ams/p9/aspect/AmsArchiveControlStateAspect.java",
+		"/H/php-testworkspce/wp-blog-header.php",
+		"/H/php-testworkspce/wp-content/themes/Vangard/sidebar.php",
+		"/G/learn/PDE9/P9_V9.3.0/SRC/AMS/src-p9-amc-library/com/pde/ams/p9/action/AmsTableRelationAction.java",
+		"/C/Users/cdy-pq/Desktop/caidy/data.js",
+		"/G/learn/PDE9/P9_V9.3.0/SRC/AMS/src-p9-aop/com/pde/ams/p9/aspect/AmsArchiveControlStateAspectAbstract.java",
+		"/C/Users/cdy-pq/Desktop/caidy/test.html",
+		"/G/促普/FormAPI.js",
+		"/G/learn/PDE9/P9_V9.3.0/SRC/AMS/src-p9-amc-library/com/pde/ams/p9/action/AmsArchivesManagerAction.java",
+		"/C/Users/cdy-pq/Desktop/caidy/d3.js",
+		"/G/learn/PDE9/PDES_V2.3.0/SRC/PDP_REPORT/WebContent/js/common/pdeBase.js",
+		"/H/记录/AmsAcMergeEntry.js",
+		"/G/learn/PDE9/P9_V9.3.0/SRC/AMS/WebContent/WEB-INF/jsp/p9/amc/AmsAcStatResearch.jsp",
+		"/D/Program Files/eclipse/artifacts.xml",
+		"/H/esbDemo/trunk/Dev/03Code/fasthink-esb/src-esb/com/fasthink/esb/action/EsbHomeAction.java",
+		"/G/temp/jquery-easyui-1.4.1/jquery.easyui.min.js",
+		"/G/study/workspace123/@mvc/WebContent/WEB-INF/web.xml",
+		"/H/esbDemo/trunk/Dev/03Code/fasthink-esb/src-esb/com/fasthink/esb/spring/conf/fasthink-esb.xml",
+		"/C/Users/cdy-pq/Desktop/jquery.ztree.all.js",
+		"/D/Program Files/nodejs/node_modules/npm/package.json",
+		"/D/Program Files/nodejs/node_modules/npm/bin/npm-cli.js",
+		"/G/learn/PDE9/PDES_V2.3.0/SRC/PDP_COMMON/src-pdp/com/pde/app/common/params/PdpSystemParams.java",
+		"/G/learn/PDE9/PDES_V2.3.0/SRC/PDP_COMMON/src-pdp/com/pde/app/common/params/PdpSystemParamsImpl.java",
+		"/G/learn/PDE9/PDES_V2.3.0/SRC/PDP_COMMON/src-pdp/com/pde/app/common/spring/conf/base-common.xml",
+		"/G/study/workspace123/@mvc/src-config/spring/servlet.xml",
+		"/G/temp/spring4+mybatis3/ssr/pom.xml",
+		"/G/temp/spring4+mybatis3/ssr/src/main/resources/spring-mvc.xml",
+		"/G/temp/spring4+mybatis3/ssr/src/main/webapp/WEB-INF/web.xml",
+		"/G/temp/spring4+mybatis3/ssr/src/main/resources/spring-config.xml",
+		"/G/temp/spring4+mybatis3/ssr/src/main/resources/sqlMapConfig.xml",
+		"/G/learn/PDE9/PDES_V2.3.0/SRC/PDP_COMMON/WebContent/WEB-INF/web.xml",
+		"/H/cmsSpace/CMS/WebContent/WEB-INF/page/test.jsp",
+		"/G/study/workspace123/@mvc/src-java/test/controller/Start.java"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 99.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"student",
+			"publicAccess",
+			"otherwise",
+			":'/'\n",
+			"redirectTo",
+			";\n",
+			"']);\n",
+			"6",
+			"4",
+			"3",
+			"1",
+			"6",
+			"5",
+			"3",
+			"2",
+			"8",
+			"5",
+			"7",
+			"6",
+			"5",
+			"4",
+			"3",
+			"1",
+			"2",
+			"1",
+			"===",
+			"ajax",
+			"14",
+			"13",
+			"12",
+			"11",
+			"10",
+			"9",
+			"8",
+			"7",
+			"6",
+			"5",
+			"'}}",
+			"lzy",
+			"requestbody",
+			"request",
+			"requesetbody",
+			"	\n",
+			"inArray",
+			"_fnSettingsFromNode",
+			"api",
+			"datatable",
+			"column",
+			"rquickExpr",
+			"rootjQuery",
+			"rquickExpr",
+			"create",
+			"format",
+			"alias",
+			"getDocumentUrl",
+			"viewFile",
+			"view",
+			"CommandUtils",
+			"onsubmit",
+			"get:",
+			"get",
+			"StringToDate",
+			"date",
+			"disabledStyle",
+			"view",
+			"onSelect",
+			"Math",
+			"max",
+			"sum",
+			"InitJSON",
+			"CollectedJSON",
+			"ajax",
+			"session"
+		],
+		"highlight": false,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"7",
+			"5",
+			"4",
+			"3",
+			"7",
+			"6",
+			"4",
+			"3",
+			"9",
+			"8",
+			"7",
+			"6",
+			"5",
+			"4",
+			"3",
+			"2",
+			"15",
+			"14",
+			"13",
+			"12",
+			"11",
+			"10",
+			"9",
+			"8",
+			"7",
+			"6",
+			"fasthink"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "6/6-1.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 715,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								641,
+								641
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 234.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "6/6-2.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 953,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								690,
+								690
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 468.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "6/6-3.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 932,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								816,
+								816
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 624.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 42.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "angular.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 189.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
